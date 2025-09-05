@@ -4,13 +4,16 @@ This repository contains code and sample datasets for **airport gate and stand a
 - `Stand_assignment.ipynb`
 
   Pre-allocation and Dynamic Gate Reallocation intial trial.
+  
 Method: GCN
 
 ## Week 2
 - `schiphol_flights_2025-08-01.csv`
 
   Initially use Python to obtain Schiphol Airport data.
+  
   Initial GNN trial on the dataset.
+  
 Method: GNN
   
 ## Week 3
@@ -23,6 +26,7 @@ Method: GNN
 - `GNN_based_gate_assignment.ipynb`
   
   Use GNN to pre allocate stand and gates for schiphol airport.
+  
 Method: GNN
 
 ## Week 4
@@ -35,7 +39,9 @@ Method: GNN
 - `Simulated_DRL_Gate_Assignment.ipynb`
   
   End-to-end DRL simulation environment: observation/action spaces, reward design, training curves, evaluation.
+  
 Method: PPO
+
 Initial trial on PPO for real time allocation.
 
 ## Week 5
@@ -46,14 +52,18 @@ Initial trial on PPO for real time allocation.
 - `PPO_reassignment result.csv`
   
 Method: PPO, DQN, GNN
+
 Work done: Add total_timesteps
+
 The following methods were compared based on simulated data: PPO, DQN, GNN(pre_allocation) + PPO(real time), GNN(pre_allocation) + GQN(real time)
 
 ## Week 6
 - `SAT_airport_PPO_gate_assignment.ipynb`
   
 Method: PPO
+
 Work done: Add more constraints 
+
 Combined with SAT airport actual layout simulation data, and applied DRL PPO to perform real-time redistribution in situations of flight delays.
 
 ## Environment Setup
