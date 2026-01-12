@@ -66,7 +66,7 @@ Work done: Add more constraints
 
 Combined with SAT airport actual layout simulation data, and applied DRL PPO to perform real-time redistribution in situations of flight delays.
 
-## Environment Setup
+Environment Setup
 
 - Python 3
 - Recommended dependencies:
@@ -75,3 +75,6 @@ Combined with SAT airport actual layout simulation data, and applied DRL PPO to 
   - `stable-baselines3` (for PPO/DQN)
   - `jupyterlab` or `notebook`
 
+## 12/1/2026
+
+Have done some experiments on SFO (large) and SAT (small) airport. Recorded on file `SAT experiment (small airport).docx` and `SFO experiment (large airport).docx`. Upload Python file `V7_SFO_gate_assignment.ipynb` and `V9_SAT_airport_3_way_gate_assignment.ipynb`.
